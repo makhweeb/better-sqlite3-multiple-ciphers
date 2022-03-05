@@ -1,9 +1,6 @@
 name: prebuild
 
-on:
-  release:
-    types:
-      - published
+on: workflow_dispatch
 
 jobs:
   prebuild:
